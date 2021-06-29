@@ -1,51 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on Myname</title>
-    <link>https://HiZXLee.github.io/post/</link>
-    <description>Recent content in Articles on Myname</description>
+    <title>Articles on My blog</title>
+    <link>https://example.com/post/</link>
+    <description>Recent content in Articles on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Mar 2021 12:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://HiZXLee.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>4th</title>
-      <link>https://HiZXLee.github.io/post/4th/</link>
-      <pubDate>Sun, 20 Jun 2021 17:57:53 +0800</pubDate>
-      
-      <guid>https://HiZXLee.github.io/post/4th/</guid>
-      <description>Success&amp;hellip; Testing 4th</description>
-    </item>
     
     <item>
-      <title>Third</title>
-      <link>https://HiZXLee.github.io/post/third/</link>
-      <pubDate>Sun, 20 Jun 2021 17:44:32 +0800</pubDate>
+      <title>First Post</title>
+      <link>https://example.com/post/chapter-1/</link>
+      <pubDate>Mon, 28 Jun 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://HiZXLee.github.io/post/third/</guid>
-      <description>Finally working&amp;hellip;.I spent a few days trying here and there.
-Haha It&amp;rsquo;s fun.</description>
-    </item>
-    
-    <item>
-      <title>2nd</title>
-      <link>https://HiZXLee.github.io/post/2nd/</link>
-      <pubDate>Sun, 20 Jun 2021 17:13:42 +0800</pubDate>
-      
-      <guid>https://HiZXLee.github.io/post/2nd/</guid>
-      <description>my second post!</description>
-    </item>
-    
-    <item>
-      <title>First!!!</title>
-      <link>https://HiZXLee.github.io/post/chapter-1/</link>
-      <pubDate>Wed, 09 Jun 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://HiZXLee.github.io/post/chapter-1/</guid>
-      <description>First post nothing here actually.</description>
+      <guid>https://example.com/post/chapter-1/</guid>
+      <description>Hello world. This is a new post.</description>
     </item>
     
   </channel>
