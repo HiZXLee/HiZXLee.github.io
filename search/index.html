@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>My blog</title>
+    <title>Search | My blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Gonna start working">
+    <meta name="description" content="">
     <meta name="generator" content="Hugo 0.64.0" />
     
     
@@ -26,20 +26,21 @@
 
     
     
-      <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="My blog" />
-      <link href="/categories/index.xml" rel="feed" type="application/rss+xml" title="My blog" />
-      
-    
-    
-    <meta property="og:title" content="Categories" />
-<meta property="og:description" content="Gonna start working" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://hizxlee.github.io/categories/" />
+    <meta property="og:title" content="Search" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hizxlee.github.io/search/" />
 <meta property="og:site_name" content="My blog" />
-<meta itemprop="name" content="Categories">
-<meta itemprop="description" content="Gonna start working"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="Gonna start working"/>
+<meta itemprop="name" content="Search">
+<meta itemprop="description" content="">
+
+<meta itemprop="wordCount" content="0">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Search"/>
+<meta name="twitter:description" content=""/>
 
 	
   </head>
@@ -113,7 +114,7 @@
 
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Categories
+          Search
         </h1>
         
       </div>
@@ -123,17 +124,25 @@
 
     <main class="pb7" role="main">
       
-    
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
-      
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto" >
+    <form action="https://hizxlee.github.io/search">
+      <input id="search-query" name="s"/>
+    </form>
+    <div id="search-results">
+     <h3>Matching pages</h3>
     </div>
-  </article>
-  <div class="mw8 center">
-    <section class="ph4">
-      
-    </section>
   </div>
+</section>
+
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+      <h4><a href="${link}">${title}</a></h4>
+      <p>${snippet}</p>
+      ${ isset tags }<p>Tags: ${tags}</p>${ end }
+      ${ isset categories }<p>Categories: ${categories}</p>${ end }
+    </div>
+</script>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
